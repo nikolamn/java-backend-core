@@ -1,0 +1,20 @@
+Inheritance (less flexible)
+
+class Engine {
+    void start() { ... }
+}
+class Car extends Engine {}
+
+Composition (preferred)
+
+class Engine {
+    void start() { ... }
+}
+
+class Car {
+    private Engine engine = new Engine();
+
+    void startCar() {
+        engine.start();
+    }
+}
