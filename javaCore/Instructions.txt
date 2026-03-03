@@ -1,0 +1,18 @@
+// compile
+javac -d bin src/jcore/oop/basics/*.java
+javac -d bin -sourcepath src src/jcore/oop/additional/Main.java
+javac -d bin -sourcepath src src/jcore/oop/additional2/Main.java
+javac -d bin -sourcepath src src/jcore/types/Main.java
+javac -d bin -sourcepath src src/jcore/collections/Main.java
+javac -d bin -sourcepath src src/jcore/functional/Main.java
+javac -d bin -sourcepath src src/jcore/concurency/Main.java
+
+// run
+java -cp bin jcore.oop.basics.Main
+java -cp bin jcore.oop.additional.Main
+java -cp bin jcore.oop.additional2.Main
+java -cp bin jcore.oop.additional2.Main
+java -cp bin jcore.types.Main
+java -cp bin jcore.collections.Main
+java -cp bin jcore.functional.Main
+java -cp bin jcore.concurency.Main
