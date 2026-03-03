@@ -5,7 +5,7 @@
 
 ### 1.1. OOP Principles Basic
 
-Readme file route: ./src/jcore/oop/basics/README.md
+Info file route: ./src/jcore/oop/basics/Info.txt
 
 ### 1.2. OOP Aditional I
 
@@ -21,7 +21,7 @@ Readme file route: ./src/jcore/oop/basics/README.md
 - Generics  
 - Composition over inheritance  
 
-Readme file route: ./src/jcore/oop/additional/README.md
+Info file route: ./src/jcore/oop/additional/Info.txt
 
 ### 1.3. OOP Aditional II
 
@@ -32,7 +32,7 @@ Readme file route: ./src/jcore/oop/additional/README.md
 - Object lifecycle & Garbage Collector  
 - Immutability   
 
-Readme file route: ./src/jcore/oop/additional2/README.md
+Info file route: ./src/jcore/oop/additional2/Info.txt
 
 
 ## Data Types
@@ -46,7 +46,7 @@ Readme file route: ./src/jcore/oop/additional2/README.md
 5. Nullability & Defensive Design  
 6. Memory Model Awareness  
 
-Readme file route: ./src/jcore/types/README.md
+Info file route: ./src/jcore/types/Info.txt
 
 
 ## Collections
@@ -61,20 +61,20 @@ Readme file route: ./src/jcore/types/README.md
 8. Best practices
 9. Advanced utilities
 
-Readme file route: ./src/jcore/collections/README.md
+Info file route: ./src/jcore/collections/Info.txt
 
 
 ## SOLID
 
-Readme file route: ./src/jcore/solid/README.md
+Info file route: ./src/jcore/solid/Info.txt
 
 ## EXCEPTIONS
 
-Readme file route: ./src/jcore/exceptions/README.md
+Info file route: ./src/jcore/exceptions/Info.txt
 
 ## FUNCTIONAL FEATURES
 
-Readme file route: ./src/jcore/functional/README.md
+Info file route: ./src/jcore/functional/Info.txt
 
 ## BASIC CONCURENCY
 
@@ -84,4 +84,4 @@ Readme file route: ./src/jcore/functional/README.md
 4. Volatile keyword
 5. Atomic variables
 
-Readme file route: ./src/jcore/concurency/README.md
+Info file route: ./src/jcore/concurency/Info.txt
