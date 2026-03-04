@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: weblayer
+    datasource:
+      url: jdbc:h2:mem:testdb
+      username: sa
+      password: 
+    h2:
+      console:
+        enabled: true

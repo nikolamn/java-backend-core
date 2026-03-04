@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: wiring
+# DB H2 auto-configured
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 
+  h2:
+    console:
+      enabled: true
+
+app:
+  greeting:
+    prefix: "Welcome"
+
+# JPA
+# ------------------------
+  jpa:
+    hibernate:
+      ddl-auto: update  # Boot auto-configures EntityManagerFactory & TransactionManager
+    show-sql: true
