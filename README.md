@@ -23,3 +23,26 @@ Readme file route: ./javaCore/README.md
 - Web layer 
 
 Readme file route: ./Spring & Spring Boot/README.md
+
+## REST API DESIGN
+
+- Core HTTP Methods
+- Idempotency  
+- DTO vs Entity Separation  
+- Validation at API Boundary
+
+Readme file route: ./REST API/README.md
+
+
+## SPRING BOOT PERSISTENCE
+
+- SQL Fundamentals (JOINs, Indexes, Constraints)  
+- Transaction Management & ACID Behavior  
+- Isolation Levels and Rollback Handling  
+- Performance Optimization Patterns  
+  - N+1 problem and JOIN FETCH solutions  
+  - Lazy vs Eager loading trade-offs  
+  - Query efficiency awareness  
+
+Readme file route: ./Persistence & Databases/README.md
+
