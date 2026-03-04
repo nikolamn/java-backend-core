@@ -1,0 +1,15 @@
+# Lazy loading users
+curl -X GET -i http://localhost:8080/api/demo/users-lazy \
+-H "Accept: application/json"
+
+# Eager loading users
+curl -X GET -i http://localhost:8080/api/demo/users-eager \
+-H "Accept: application/json"
+
+# Change username
+curl -X PUT -i "http://localhost:8080/api/demo/user/1/username?username=john_updated" \
+-H "Accept: text/plain"
+
+# Transaction rllback
+curl -X POST -i "http://localhost:8080/api/demo/user-fail?username=test_user" \
+-H "Accept: text/plain"

@@ -1,0 +1,50 @@
+1. SQL Fundamentals
+- JOIN merges data from related tables using foreign keys
+- Indexes improve lookup speed for large datasets
+- Constraints protect database integrity
+
+2. Transactions (ACID)
+- Atomicity - All operations succeed or fail together
+- Consistency - Database remains valid after transaction
+- Isolation - Controls visibility of concurrent operations
+- Durability → Committed data is permanently stored
+- Isolation levels affect concurrency safety
+
+3. N+1 Problem
+- One query loads parent entities
+- Additional queries load child relations
+- Causes performance degradation
+- Solve using JOIN FETCH or batch fetching
+
+4. Lazy vs Eager Loading
+- Lazy loading fetches relations only when accessed
+- Eager loading fetches relations immediately
+- Lazy is generally safer for performance
+
+5. Query Optimization Basics
+- Select only required fields
+- Avoid unnecessary joins
+- Use indexes on search columns
+- Monitor SQL execution
+
+6. @Transactional Behavior
+- Defines transaction boundaries
+- Rolls back on runtime exceptions
+- Ensures atomic service execution
+
+7. Entity Lifecycle
+- New - Entity not persisted yet
+- Managed - Entity tracked by persistence context
+- Detached - Entity outside session
+- Removed - Entity marked for deletion
+
+8. Dirty Checking
+- Hibernate tracks entity state changes
+- Modified fields are auto-saved on commit
+- Often eliminates manual save calls
+
+9. Persistence Debugging
+- Enable SQL logging
+- Verify transaction scope
+- Watch lazy loading context
+- Track number of executed queries
